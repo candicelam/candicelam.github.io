@@ -37,24 +37,33 @@
 }
 
 html {
-    background-color: #f2f2f2;
+	background-image: -webkit-gradient(linear,99% 99%,15% 40%,from(lightblue),to(snow));
+	 background-repeat: no-repeat;
+  background-size: cover;
+	height: 150%;
+	opacity: 0.1%
 }
 
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', sans-serif; 
     text-align: center;
+
 }
 
-.logo {
-    color: #31708e;
+h1 {
+    /* color: #31708e;*/
     font-size: 30px;
     text-align: center;
+	 background-image: -webkit-gradient(linear,100% 90%,15% 100%,from(powderblue),to(#5085a5));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 #game-container {
-    width: 80vw;
+    width: 90vw;
     height: calc(80vw/1.7);
-    background-color: lightgray;
+   /* background-color: lightgray; */
+	background-image: -webkit-gradient(linear,0% 90%,15% 100%,from(linen),to(#F7F9FB));
     margin: 0 auto;
     border-radius: 8px;
 }
@@ -65,12 +74,12 @@ body {
     margin-bottom: 5px;
     background-size: cover;
     background-position: center;
-    background-image: url("https://thumbs.gfycat.com/UnfinishedDefenselessHalicore-size_restricted.gif");
+    background-image: url("0.gif");
     border-radius: 8px;
 }
 
 p {
-    text-align: justify;
+    text-align:justify;
     width: 80%;
     font-size: 20px;
     padding: 2px 5px;
@@ -82,12 +91,12 @@ p {
 }
 
 button {
-    background-color: #5085a5;
+	background-image: linear-gradient(to bottom right, powderblue, #5085a5);
     margin: 10px;
     padding: 5px 20px;
     height: 40px;
     border-radius: 8px;
-    font-family: 'Rubik', sans-serif;
+   font-family: 'Rubik', sans-serif; 
     font-size: 26px;
     color: #EEEEEE;
     border: none;
@@ -102,6 +111,7 @@ button:hover {
 button:focus {
     outline: none;
 }
+
 
 a {
 	color: white;
